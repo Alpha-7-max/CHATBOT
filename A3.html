@@ -15,7 +15,7 @@
             --border-radius: 12px;
             --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             --input-border: 1px solid #e0e0e0;
-            --input-active-border: 2px solid var(--primary-color);
+            --input-active-border: 1px solid var(--primary-color); /* Reduced thickness */
         }
 
         * {
@@ -167,7 +167,7 @@
 
         .input-field:focus {
             border: var(--input-active-border);
-            box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+            box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.2); /* Reduced shadow thickness */
         }
 
         .send-button {
